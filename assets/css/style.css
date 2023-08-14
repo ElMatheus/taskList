@@ -15,7 +15,8 @@ main {
 
 section {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #input {
@@ -24,7 +25,6 @@ section {
 }
 
 #plus {
-    padding: 1.0rem;
     background-color: #3f3f3f;
     margin-left: 5px;
     border-radius: 5px;
@@ -33,11 +33,34 @@ section {
     background-color: #3f3f3f;
     border: none;
     padding: 1.0rem;
+    color: #f0f0f0;
     border-radius: 5px;
 }
 
-#input button {
+button {
+    cursor: pointer;
+    padding: 1.0rem;
     background-color: transparent;
-
     border: none;
 }
+
+.task {
+    background-color: #3f3f3f;
+    padding: 1.0rem ;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.task p {
+    width: 500px;
+}
+
+.task button {
+    border-radius: 9898989898px;
+    background-color: #181818;
+}
+

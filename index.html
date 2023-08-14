@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js"></script>
     <title>Document</title>
 </head>
 
@@ -15,7 +14,7 @@
             <div id="input">
                 <input type="text" id="inp" name="inp" placeholder="Adcione uma nova tarefa">
                 <div id="plus">
-                    <button><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    <button onclick="addTask()"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
                             viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <style>
                                 svg {
@@ -28,10 +27,13 @@
                 </div>
 
             </div>
+            <div id="result">
 
+            </div>
 
         </section>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

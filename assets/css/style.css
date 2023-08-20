@@ -73,11 +73,9 @@ span {
 }
 
 .taskDone {
-    font-weight: bold;
     background-color: green;
-    border-radius: 9898989898px;
 }
 
-.task {
+.titleDone {
     text-decoration: line-through;
 }
